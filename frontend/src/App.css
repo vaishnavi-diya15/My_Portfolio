@@ -1,0 +1,104 @@
+.App{
+  background-image:linear-gradient(60deg, rgb(96, 232, 143), rgb(241, 241, 210)); 
+  min-height: 100vh;
+  margin: 0; 
+  display: "grid",
+}
+.Header{
+  font-size: 55px;
+  text-align: center;
+  margin: 0; 
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.list-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 280px;
+}
+.list-box h2 {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+.list-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-box li {
+  margin: 8px 0;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.list-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.Education{
+  background-color:#cfdff8;
+}
+.language{
+  background-color:#fac9fa;
+}
+.skills {
+  background-color: #f6bbbb; 
+}
+.soft-skills {
+  background-color:#cec4f8;
+}
+.projects {
+  background-color: #eed7b5; 
+}
+
+.achievements {
+  background-color: #e9bff4; 
+}
+.para {
+  font-size: 1.2em;
+  color: #333333;
+  margin: 20px auto;
+  max-width: 900px;
+  line-height: 1.6;
+  text-align: center; 
+  padding: 15px;
+  background-color: #c9bff4; 
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%; 
+}
+.para:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.intro-image {
+  border: 2px dotted;
+  display: block;
+  position: absolute; 
+  top: 20px; 
+  right: 90px; 
+  max-width: 100px; 
+  height: auto; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.Contacts{
+  
+  background-color: #b2b2b2;
+  color: #000000;
+  border-radius: 8px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+} 
