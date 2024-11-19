@@ -1,5 +1,5 @@
 .App{
-  background-image:linear-gradient(60deg, rgb(96, 232, 143), rgb(241, 241, 210)); 
+  background-color:#333333; 
   min-height: 100vh;
   margin: 0; 
   display: "grid",
@@ -9,7 +9,7 @@
   text-align: center;
   margin: 0; 
   text-decoration: underline;
-  color: rgb(0, 0, 0);
+  color: rgb(167, 165, 165);
 }
 .list-container {
   display: flex;
@@ -19,12 +19,13 @@
   margin: 20px 0;
 }
 .list-box {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   flex: 1;
   min-width: 280px;
+  margin:5px;
 }
 .list-box h2 {
   font-size: 1.6em;
@@ -49,23 +50,23 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 .Education{
-  background-color:#cfdff8;
+  background: linear-gradient(135deg, #ffffff, #cdcdcd)
 }
 .language{
-  background-color:#fac9fa;
+  background: linear-gradient(135deg, #ffffff, #cdcdcd)
 }
 .skills {
-  background-color: #f6bbbb; 
+  background: linear-gradient(135deg, #ffffff, #cdcdcd)
 }
 .soft-skills {
-  background-color:#cec4f8;
+  background: linear-gradient(135deg, #ffffff, #cdcdcd)
 }
 .projects {
-  background-color: #eed7b5; 
+  background: linear-gradient(135deg, #ffffff, #cdcdcd)
 }
 
 .achievements {
-  background-color: #e9bff4; 
+  background: linear-gradient(135deg, #ffffff, #cdcdcd) 
 }
 .para {
   font-size: 1.2em;
@@ -75,7 +76,7 @@
   line-height: 1.6;
   text-align: center; 
   padding: 15px;
-  background-color: #c9bff4; 
+  background: linear-gradient(135deg, #ffffff, #cdcdcd);
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 80%; 
@@ -89,15 +90,14 @@
   display: block;
   position: absolute; 
   top: 20px; 
-  right: 90px; 
-  max-width: 100px; 
-  height: auto; 
-  border-radius: 8px; 
+  right: 45px; 
+  width: 200px; 
+  height: 200px;
+  border-radius: 100px; 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .Contacts{
-  
-  background-color: #b2b2b2;
+  background: linear-gradient(135deg, #ffffff, #cdcdcd);
   color: #000000;
   border-radius: 8px; 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
